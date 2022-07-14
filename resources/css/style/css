@@ -1,0 +1,189 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  font-family: "Rubik", sans-serif;
+}
+
+.container {
+  max-width: 1450px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: #0B132A;
+}
+
+.header__warapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 120px;
+  margin: 0 150px;
+}
+.header__logo a {
+  display: inline-block;
+}
+.header__logo a img {
+  height: 36px;
+}
+.header__menu--list {
+  display: flex;
+}
+.header__menu--item a {
+  color: #4F5665;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  font-style: normal;
+  margin-left: 40px;
+  transition: all 0.5s ease-in-out;
+}
+.header__menu--item a:hover {
+  font-weight: bold;
+  font-size: 17px;
+}
+.header__menu--item:nth-child(1) a {
+  margin: 0;
+}
+.header__authen {
+  display: flex;
+}
+.header__authen--signin a {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #0B132A;
+  transition: all 0.3s ease-in-out;
+}
+.header__authen--signin a:hover {
+  font-weight: bold;
+}
+.header__authen--signup a {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  margin-left: 30px;
+  color: #f53855;
+  padding: 12.3px 44.2px;
+  border: 1px solid #f53855;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+}
+.header__authen--signup a:hover {
+  border: 1px solid #fff;
+  background-color: #f53855;
+  color: #fff;
+}
+
+.top__warapper {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 80px 0 150px;
+  height: 500px;
+  background-color: #f53838;
+}
+.top__content {
+  width: 555px;
+}
+.top__content h1 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 70px;
+  padding-top: 75px;
+}
+.top__content h1 b {
+  font-weight: 700;
+}
+.top__content p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  padding-top: 20px;
+}
+.top__content--btn {
+  width: 250px;
+  height: 60px;
+  background: #f53838;
+  border-radius: 10px;
+  margin-top: 50px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.5s;
+  box-shadow: 0 15px 20px rgba(245, 56, 56, 0.35);
+}
+.top__content--btn:hover {
+  opacity: 0.9;
+  transform: scale(1.1);
+}
+.top__image img {
+  padding-top: 45px;
+  width: 610px;
+}
+.top__bottom--list {
+  display: flex;
+}
+
+/*# sourceMappingURL=css.map */
